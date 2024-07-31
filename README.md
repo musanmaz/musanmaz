@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Mehmet Sirin Usanmaz</h1>
-<h3 align="center">I'm a passionate DevOps engineer with a deep interest in cloud technologies, automation, and monitoring solutions. Currently, I'm working at @TurkNet and also contributing to various open-source projects.</h3>
+<h3 align="center">I'm a passionate DevOps engineer with a deep interest in cloud technologies, automation, and monitoring solutions.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=musanmaz&label=Profile%20views&color=0e75b6&style=flat" alt="musanmaz" /> </p>
 
