@@ -12,7 +12,7 @@ I help teams build faster, more reliable, and observable systems.
   <a href="https://mehmet.tech"><img src="https://img.shields.io/badge/mehmet.tech-000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" /></a>
   <a href="https://github.com/musanmaz"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://linkedin.com/in/mehmetsirinusanmaz"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://medium.com/@usanmazmehmet"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
+  <a href="https://medium.com/@musanmaz"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
   <a href="https://twitter.com/musanmaz"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
   <a href="https://instagram.com/musanmaz"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
@@ -175,7 +175,7 @@ Developer activity reporting app for Bitbucket Cloud via Atlassian Connect.
 
 ## Writing
 
-📝 [Medium — @usanmazmehmet](https://medium.com/@usanmazmehmet)
+📝 [Medium — @musanmaz](https://medium.com/@musanmaz)
 
 - [My One-Year Leadership Journey: Expectations, Realities, and Lessons Learned](https://medium.com/turknettech/bir-y%C4%B1ll%C4%B1k-liderlik-yolculu%C4%9Fum-beklentiler-ger%C3%A7ekler-ve-%C3%B6%C4%9Frendiklerim-e5db422b4bc6)
 - [Consul IO: A Simple and Effective CLI Tool](https://medium.com/turknettech/consul-io-basit-ve-etkili-bir-cli-arac%C4%B1-b5c77739194a)
@@ -195,7 +195,7 @@ Developer activity reporting app for Bitbucket Cloud via Atlassian Connect.
 | 💼 LinkedIn | [mehmetsirinusanmaz](https://linkedin.com/in/mehmetsirinusanmaz) | — |
 | 🐦 X | [musanmaz](https://twitter.com/musanmaz) | — |
 | 📸 Instagram | [musanmaz](https://instagram.com/musanmaz) | — |
-| ✍️ Medium | [usanmazmehmet](https://medium.com/@usanmazmehmet) | — |
+| ✍️ Medium | [musanmaz](https://medium.com/@musanmaz) | — |
 
 ---
 
