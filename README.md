@@ -8,9 +8,20 @@ I help teams build faster, more reliable, and observable systems.
 
 ---
 
-🌐 [mehmet.tech](https://mehmet.tech) · [GitHub](https://github.com/musanmaz) · [LinkedIn](https://linkedin.com/in/mehmetsirinusanmaz) · [Medium](https://medium.com/@usanmazmehmet) · [X](https://twitter.com/musanmaz) · [Instagram](https://instagram.com/musanmaz)
+<p align="left">
+  <a href="https://mehmet.tech"><img src="https://img.shields.io/badge/mehmet.tech-000000?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website" /></a>
+  <a href="https://github.com/musanmaz"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://linkedin.com/in/mehmetsirinusanmaz"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://medium.com/@usanmazmehmet"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
+  <a href="https://twitter.com/musanmaz"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://instagram.com/musanmaz"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+</p>
 
-📬 [hello@mehmet.tech](mailto:hello@mehmet.tech) · [info@musanmaz.com.tr](mailto:info@musanmaz.com.tr) · [usanmaz@mehmetsir.in](mailto:usanmaz@mehmetsir.in)
+<p align="left">
+  <a href="mailto:hello@mehmet.tech"><img src="https://img.shields.io/badge/hello@mehmet.tech-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:info@musanmaz.com.tr"><img src="https://img.shields.io/badge/info@musanmaz.com.tr-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email" /></a>
+  <a href="mailto:usanmaz@mehmetsir.in"><img src="https://img.shields.io/badge/usanmaz@mehmetsir.in-333333?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" /></a>
+</p>
 
 ---
 
