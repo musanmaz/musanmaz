@@ -14,7 +14,6 @@ I help teams build faster, more reliable, and observable systems.
   <a href="https://linkedin.com/in/mehmetsirinusanmaz"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://medium.com/@musanmaz"><img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
   <a href="https://twitter.com/musanmaz"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
-  <a href="https://instagram.com/musanmaz"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
 
 <p align="left">
@@ -194,7 +193,6 @@ Developer activity reporting app for Bitbucket Cloud via Atlassian Connect.
 | 🐙 GitHub | [musanmaz](https://github.com/musanmaz) | — |
 | 💼 LinkedIn | [mehmetsirinusanmaz](https://linkedin.com/in/mehmetsirinusanmaz) | — |
 | 🐦 X | [musanmaz](https://twitter.com/musanmaz) | — |
-| 📸 Instagram | [musanmaz](https://instagram.com/musanmaz) | — |
 | ✍️ Medium | [musanmaz](https://medium.com/@musanmaz) | — |
 
 ---
