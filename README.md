@@ -38,6 +38,32 @@ Cron expression generator, validator, and scheduler toolkit.
 
 ---
 
+### [local-llm](https://github.com/musanmaz/local-llm)
+
+Multi-model chat app that queries 4 LLMs in parallel and generates a judge summary.
+
+- **Problem:** Comparing responses across multiple LLM providers requires switching between tools. local-llm sends every message to 4 models simultaneously via a LiteLLM proxy and uses a judge model to synthesize a summary — all in one interface.
+- **Tech stack:** Next.js 15 (App Router), PostgreSQL, LiteLLM proxy, Docker Compose. Cookie-based JWT session management; supports OpenAI, Anthropic, xAI (Grok), and Google Gemini.
+- **Use case:** Developers and researchers evaluating LLM quality side-by-side. Supports cheap/best model mode switching, persistent thread history, and self-hosted deployment via Docker.
+
+---
+
+### [HesapBotu](https://hesapbotu.com)
+
+Turkey's smart calculator and AI analysis platform — 10+ categories, live data, and a Gemini-powered assistant.
+
+- **Problem:** Turkish users have no single, accurate tool for finance, career, and education calculations. Switching between scattered calculators is slow, and none offer natural-language queries.
+- **Tech stack:** Next.js 16 (App Router), Tailwind CSS v4, Prisma, Neon PostgreSQL, Vercel. Cookie-based JWT auth with Edge-compatible `jose`; Gemini AI via `@google/genai`.
+- **Calculators (10+ categories):** Loan amortisation (İhtiyaç/Konut/Taşıt) with BSMV & KKDF, net/gross salary with 12-month progressive tax brackets, LGS percentile and TYT/AYT/Y-SAY/Y-EA score panels (OBP included), BMR/ideal weight, gold, currency, crypto, and more.
+- **AI Assistant:** The `HesapBotu` widget accepts free-form Turkish queries (`"100.000 TL kredi 3.5 faizle 12 ayda ne kadar?"`) and routes them to the correct calculator engine via Gemini intent parsing.
+- **Live data:** Exchange rates (`exchangerate-api.com`), BTC/ETH/BNB and gold prices (`CoinGecko`, XAU-indexed), all proxied server-side with 5–60 min revalidation to keep API keys off the client.
+- **Blog & FAQ:** Full blog system (Markdown + custom TOC, JSON-LD `Article`/`FAQPage` schemas, related posts/calculators). 20+ FAQ entries across 5 categories at `/sss`.
+- **Admin panel:** Dark-mode dashboard with Markdown preview editor, soft/hard delete, image upload (5 MB cap, images only), and brute-force delay. DOMPurify sanitisation against stored XSS. *(Private repository.)*
+
+🔗 [hesapbotu.com](https://hesapbotu.com)
+
+---
+
 ### [mehmet.tech](https://github.com/musanmaz/mehmet.tech)
 
 Personal website and digital business card.
