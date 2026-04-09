@@ -26,7 +26,7 @@ I help teams build faster, more reliable, and observable systems.
 
 ## Featured Projects
 
-### [Runtrixy](https://github.com/musanmaz/runtrixy)
+### [Runtrixy](https://runtrixy.com)
 
 No-code BDD test automation platform for web, REST API, and SQL testing.
 
