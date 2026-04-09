@@ -26,25 +26,15 @@ I help teams build faster, more reliable, and observable systems.
 
 ## Featured Projects
 
-### [CronWizard](https://github.com/musanmaz/cronwizard)
+### [Runtrixy](https://github.com/musanmaz/runtrixy)
 
-Cron expression generator, validator, and scheduler toolkit.
+No-code BDD test automation platform for web, REST API, and SQL testing.
 
-- **Problem:** Writing and validating cron expressions manually is error-prone. Teams need a quick way to generate, verify, preview upcoming runs, and export to Kubernetes CronJob / GitHub Actions / systemd formats.
-- **Tech stack:** Next.js 14 (App Router) + NestJS 10 monorepo, TypeScript, Tailwind CSS, shadcn/ui, Zod, Vitest. pnpm workspaces.
-- **Use case:** DevOps and backend teams scheduling cron-based jobs. API endpoints: `generate`, `validate`, `next`, `export`, `healthz`, `readyz`.
+- **Problem:** Teams need to write and execute BDD tests without coding expertise. Existing tools are fragmented across web UI, API, and database testing. Runtrixy unifies all three under a single Gherkin-based platform with 300+ predefined steps.
+- **Tech stack:** Java 21, Spring Boot 3.x, React 18, TypeScript, Vite, Tailwind CSS, Next.js 16 (landing), PostgreSQL 16, Redis 7, MinIO, Selenium WebDriver, Cucumber/Gherkin.
+- **Use case:** QA teams and developers automating BDD test scenarios. Features include Monaco editor with Gherkin autocomplete, Git integration (GitHub/GitLab/Bitbucket), real-time WebSocket execution, scheduled runs, visual regression, and multi-language support (70+ languages including Turkish).
 
-🔗 [cronwizard.com](https://cronwizard.com)
-
----
-
-### [local-llm](https://github.com/musanmaz/local-llm)
-
-Multi-model chat app that queries 4 LLMs in parallel and generates a judge summary.
-
-- **Problem:** Comparing responses across multiple LLM providers requires switching between tools. local-llm sends every message to 4 models simultaneously via a LiteLLM proxy and uses a judge model to synthesize a summary — all in one interface.
-- **Tech stack:** Next.js 15 (App Router), PostgreSQL, LiteLLM proxy, Docker Compose. Cookie-based JWT session management; supports OpenAI, Anthropic, xAI (Grok), and Google Gemini.
-- **Use case:** Developers and researchers evaluating LLM quality side-by-side. Supports cheap/best model mode switching, persistent thread history, and self-hosted deployment via Docker.
+🔗 [runtrixy.com](https://runtrixy.com)
 
 ---
 
@@ -64,6 +54,60 @@ Turkey's smart calculator and AI analysis platform — 10+ categories, live data
 
 ---
 
+### [CronWizard](https://github.com/musanmaz/cronwizard)
+
+Cron expression generator, validator, and scheduler toolkit.
+
+- **Problem:** Writing and validating cron expressions manually is error-prone. Teams need a quick way to generate, verify, preview upcoming runs, and export to Kubernetes CronJob / GitHub Actions / systemd formats.
+- **Tech stack:** Next.js 14 (App Router) + NestJS 10 monorepo, TypeScript, Tailwind CSS, shadcn/ui, Zod, Vitest. pnpm workspaces.
+- **Use case:** DevOps and backend teams scheduling cron-based jobs. API endpoints: `generate`, `validate`, `next`, `export`, `healthz`, `readyz`.
+
+🔗 [cronwizard.com](https://cronwizard.com)
+
+---
+
+### [Spyglass](https://github.com/musanmaz/spyglass)
+
+Modern, open-source network looking glass for ISPs and network operators.
+
+- **Problem:** ISPs and network operators need a clean, modern web interface to let users run BGP route lookups, ping, and traceroute queries across multiple routers. Legacy looking glass tools lack real-time streaming and multi-platform support.
+- **Tech stack:** Python 3.11+, FastAPI, SQLAlchemy 2, Netmiko, React 18, TypeScript 5, Tailwind CSS, Zustand, PostgreSQL 15, Redis 7, Docker, Nginx.
+- **Use case:** Network operators providing public or internal looking glass services. Supports 13 router platforms (Cisco IOS/IOS-XR/NX-OS, Juniper, Arista, Huawei, Nokia, MikroTik, FRRouting, BIRD, VyOS, and more) with real-time WebSocket streaming.
+
+🔗 [spyglass.mehmet.tech](https://spyglass.mehmet.tech)
+
+---
+
+### [NetShift](https://github.com/musanmaz/netshift)
+
+Native macOS menu bar app for managing DNS servers and `/etc/hosts` files.
+
+- **Problem:** Switching DNS profiles and managing hosts files on macOS requires terminal commands and manual editing. NetShift provides a single-click solution with a native menu bar interface.
+- **Tech stack:** Swift, SwiftUI, macOS 14+ (Sonoma). Distributed via [Homebrew](https://github.com/musanmaz/homebrew-netshift): `brew tap musanmaz/netshift && brew install --cask netshift`.
+- **Use case:** Developers and network admins managing multiple hosts files and DNS configurations. Features include hosts file editor (local, remote, combined), DNS profiles (Cloudflare, Google, Quad9, OpenDNS), DNS benchmark with avg/P50/P90 latency, and automatic DNS cache flushing.
+
+---
+
+### [local-llm](https://github.com/musanmaz/local-llm)
+
+Multi-model chat app that queries 4 LLMs in parallel and generates a judge summary.
+
+- **Problem:** Comparing responses across multiple LLM providers requires switching between tools. local-llm sends every message to 4 models simultaneously via a LiteLLM proxy and uses a judge model to synthesize a summary — all in one interface.
+- **Tech stack:** Next.js 15 (App Router), PostgreSQL, LiteLLM proxy, Docker Compose. Cookie-based JWT session management; supports OpenAI, Anthropic, xAI (Grok), and Google Gemini.
+- **Use case:** Developers and researchers evaluating LLM quality side-by-side. Supports cheap/best model mode switching, persistent thread history, and self-hosted deployment via Docker.
+
+---
+
+### [BoxGuard](https://github.com/musanmaz/BoxGuard)
+
+Vagrant box and SSH vulnerability scanner with real CVE integration.
+
+- **Problem:** Detecting security vulnerabilities in Vagrant boxes and remote systems requires manual checks or complex toolchains. BoxGuard automates OS detection, package inventory, and CVE matching in a single CLI tool.
+- **Tech stack:** Go, OSV.dev API, Ubuntu USN feeds. Hybrid matching engine combining real CVE data with stub rules.
+- **Use case:** Security-conscious teams scanning Vagrant environments and SSH-reachable hosts. Supports Ubuntu, Debian, RHEL, CentOS, Rocky Linux, AlmaLinux with table and JSON output formats.
+
+---
+
 ### [mehmet.tech](https://github.com/musanmaz/mehmet.tech)
 
 Personal website and digital business card.
@@ -73,22 +117,6 @@ Personal website and digital business card.
 - **Use case:** Personal branding, portfolio showcase.
 
 🔗 [mehmet.tech](https://mehmet.tech)
-
----
-
-### [dns-helper](https://github.com/musanmaz/dns-helper)
-
-Cross-platform DNS switching and benchmarking tool.
-
-- **Problem:** Switching DNS profiles across operating systems requires different commands and manual steps. Comparing DNS performance lacks a unified tool.
-- **Tech stack:** Go. Supports macOS, Linux, and Windows.
-- **Use case:** Network admins, developers diagnosing DNS issues. Built-in profiles for Cloudflare, Google, Quad9, OpenDNS. Benchmarks with avg/p50/p90 latency and success rate.
-
-```
-dns-helper switch cloudflare
-dns-helper benchmark all
-dns-helper status
-```
 
 ---
 
