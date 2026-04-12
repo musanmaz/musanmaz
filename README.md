@@ -66,6 +66,16 @@ Cron expression generator, validator, and scheduler toolkit.
 
 ---
 
+### [NEXTERM](https://github.com/musanmaz/nexterm)
+
+AI-powered terminal emulator and DevOps desktop workspace with a sci-fi interface.
+
+- **Problem:** Developers juggle between terminal, Docker Desktop, Kubernetes dashboards, Git GUIs, and SSH clients. NEXTERM unifies terminal emulation, container management, Kubernetes operations, Git visualization, SSH connections, and AI chat into a single fullscreen workspace — a modern spiritual successor to [eDEX-UI](https://github.com/GitSquared/edex-ui).
+- **Tech stack:** Tauri v2 (Rust), Svelte 5, TypeScript, Vite 6, xterm.js, Three.js, Tailwind CSS. Rust crates: `sysinfo`, `portable-pty`, `bollard` (Docker), `git2`. Distributed via [Homebrew](https://github.com/musanmaz/homebrew-nexterm): `brew tap musanmaz/nexterm && brew install nexterm`.
+- **Use case:** DevOps engineers and developers who want a single-pane-of-glass workspace. Features include multi-tab terminal, multi-provider AI chat (LiteLLM/OpenAI/Anthropic/Ollama) with 4 modes (Chat/Plan/Agent/Ask), Docker container & image management with exec, Kubernetes context/namespace/pod/deployment control, Git branch graph & status synced with terminal CWD, SSH profile manager, real-time system monitoring, and 5 built-in themes.
+
+---
+
 ### [Spyglass](https://github.com/musanmaz/spyglass)
 
 Modern, open-source network looking glass for ISPs and network operators.
